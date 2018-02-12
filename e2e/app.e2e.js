@@ -18,4 +18,8 @@ describe('#Login', () => {
 	it('should have a div in container', () => {
 		expect(element(by.css('.container div')).getText()).toEqual('Hello world');
 	});
+
+	it('should have a div in container', () => {
+		expect(element(by.css('.container div')).isPresent()).toEqual(true);
+	}).pend('Due to ... ');
 });
