@@ -1,4 +1,4 @@
-export default class PO {
+export class PO {
 	constructor() {
 
 	}
